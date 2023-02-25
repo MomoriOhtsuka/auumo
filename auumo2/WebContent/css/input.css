@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* 中央寄せ */
+.wrapper {
+	width:1000px;
+	margin: 0 auto;
+}
+
+/* bodyの高さ、表示形式*/
+.wrapper {
+	display: block;
+}
+
+/* 中央寄せ*/
+form {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.inputs {
+	overflow: hidden;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+/* label左配置、装飾*/
+.label {
+	float: left;
+	margin-right: 20px;
+	width: 500px;
+	border-left: solid 3px #519C00;
+	padding-left: 10px;
+	font-weight: 900;
+	vertical-align: middle;
+}
+
+/* 入力欄左配置、大きさ */
+.input_form {
+	float: left;
+	width: 500px;
+	height: 50px;
+	font-size: 25px;
+	margin-left: 20px;
+	padding-left: 20px;
+}
+/* 大きいの用 */
+.input_form2 {
+	float: left;
+	width: 300px;
+	height: 150px;
+	resize: none;
+	margin-left: 20px;
+}
+
+/* 小さいの用 */
+.input_form3 {
+	width: 110px;
+	float: left;
+	margin-left: 20px;
+	padding-right: 20px
+}
+
+.radio {
+	margin-left: 20px;
+}
+
+.file {
+	margin-left: 20px
+}
+/* input[type="submit"] */
+.submit {
+	background: #519C00;
+	border: none;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px 30px;
+	display: block;
+	border-radius: 30px;
+	margin-left: 500px;
+/* 	transform: translate(600px); */
+}
+
+.btn {
+	padding: 5px 10px;
+	margin-left: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.necessary {
+	display: inline-block;
+	background-color: red;
+	padding: 2px 5px;
+	font: bold;
+	color: white;
+	margin-left: 3px;
+	margin-right: 3px;
+	font-size: 15px;
+	font-weight: 900px;
+	vertical-align: middle;
+}
+
+.announce {
+	margin: 0;
+	font-size: 20px;
+}
+
+.announce_necessary {
+	display: inline-block;
+	background-color: red;
+	padding: 2px 5px;
+	font: bold;
+	color: white;
+	margin-left: 3px;
+	margin-right: 3px;
+	font-size: 16px;
+	font-weight: 1600px;
+	vertical-align: middle;
+}
+
+.note {
+	margin: 0;
+	font-size: medium;
+	text-align: right;
+}

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/* 中央寄せ */
+.body {
+	width:1000px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+p {
+	font-size: 30px;
+}
+
+.yohaku{
+	margin-bottom: 70px;
+}
+
+/* bodyの高さ、表示形式*/
+.wrapper {
+	display: block;
+}
+
+.center {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.label {
+	margin-right: 20px;
+	width: 500px;
+	border-left: solid 3px #519C00;
+	padding-left: 10px;
+	font-weight: 900;
+	vertical-align: middle;
+	font-size: 30px;
+	margin-bottom: 100px;
+}
+
+.label_img {
+	margin-top: 0px;
+}
+
+.margin_b {
+	margin-bottom: 50px
+}
+
+/* input[type="submit"] */
+.submit {
+	background: #519C00;
+	border: none;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px 30px;
+	display: block;
+	border-radius: 30px;
+	justify-content: space-between;
+	margin: 20px;
+	margin-top: 20px;
+	margin-left: 800px;
+}
+
+.submit2 {
+	background: #519C00;
+	border: none;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px 30px;
+	display: block;
+	border-radius: 30px;
+	justify-content: space-between;
+	margin: 20px;
+	margin-top: 20px;
+}
+
+.between {
+	display: flex;
+	margin-left: 350px;
+}
+
+.between2 {
+	display: flex;
+	margin-left: 700px;
+}
+
+.left {
+	margin-left: 0px
+}
+
+
